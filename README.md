@@ -2,7 +2,11 @@
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vijay-v-0889a1280/)
 
+## Introduction
+
 Welcome to my repository! 👋 This project focuses on implementing a NAT configuration using Linux namespaces, bridges, and iptables. It features a network topology consisting of a Private LAN (192.168.10.0/24) with a client node, a Router acting as a NAT gateway with an external public IP, and a simulated internet network. The goal is to facilitate communication between the client node and the internet while effectively utilizing NAT for address translation.
+
+## 🚀 About Me
 
 I am Vijay V (231EE163) 👋, passionate about **systems**, particularly in **cloud** and **networking**. I'm eager to learn and collaborate with like-minded individuals to explore new technologies in these fields.
 
