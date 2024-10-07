@@ -1,3 +1,4 @@
+#!/bin/bash #if u wanna run it as a shell exec file
 sudo ip netns add red
 sudo ip link add bro0 type bridge
 sudo ip link set bro0 up
