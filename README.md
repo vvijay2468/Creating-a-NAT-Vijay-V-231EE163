@@ -73,8 +73,12 @@ The connectivity can be tested using ping and curl commands from the client name
 
 Throughout this project, I gained valuable experience in understanding the core components of networking and NAT, working with Linux namespaces and bridges for network isolation, and troubleshooting connectivity issues related to NAT and iptables.
 
-### Documentation Resources
+## Documentation
 
-For additional reference, consider exploring the following resources: Linux Network Namespaces, Iptables Tutorial, and Network Address Translation.
+[Link 1](https://www.youtube.com/watch?v=j_UUnlVC2Ss&t=410s&ab_channel=KodeKloud)
 
-Feel free to explore the repository to gain a deeper understanding of the architecture and implementation details!
+[Link 2](https://blog.scottlowe.org/2013/09/04/introducing-linux-network-namespaces/)
+
+[Link 3](https://blog.scottlowe.org/2013/05/29/a-quick-introduction-to-linux-policy-routing/)
+
+[Link 4](https://lwn.net/Articles/580893/)
