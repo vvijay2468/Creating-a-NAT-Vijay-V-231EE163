@@ -75,10 +75,7 @@ Throughout this project, I gained valuable experience in understanding the core 
 
 ## Documentation
 
-[Link 1](https://www.youtube.com/watch?v=j_UUnlVC2Ss&t=410s&ab_channel=KodeKloud)
-
-[Link 2](https://blog.scottlowe.org/2013/09/04/introducing-linux-network-namespaces/)
-
-[Link 3](https://blog.scottlowe.org/2013/05/29/a-quick-introduction-to-linux-policy-routing/)
-
-[Link 4](https://lwn.net/Articles/580893/)
+- [Link 1: KodeKloud Video on Linux Network Namespaces](https://www.youtube.com/watch?v=j_UUnlVC2Ss&t=410s&ab_channel=KodeKloud)
+- [Link 2: Blog by Scott Lowe on Introducing Linux Network Namespaces](https://blog.scottlowe.org/2013/09/04/introducing-linux-network-namespaces/)
+- [Link 3: Blog by Scott Lowe on Linux Policy Routing](https://blog.scottlowe.org/2013/05/29/a-quick-introduction-to-linux-policy-routing/)
+- [Link 4: LWN Article on Network Namespaces](https://lwn.net/Articles/580893/)
