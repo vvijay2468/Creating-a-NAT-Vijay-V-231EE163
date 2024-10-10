@@ -29,6 +29,36 @@ This project sets up a basic network topology using Linux namespaces, where:
 - Port forwarding is configured to forward external traffic to an internal web server.
 - Outbound traffic is restricted to only allow HTTP and HTTPS connections.
 
+---
+
+## Approach
+
+### Step 1: Create Linux Namespaces
+
+Namespaces `green` and `red` are created to simulate two clients in the private LAN. The namespaces are connected using veth pairs, and a L3 bridge (`bro0`) is used to link them.
+
+### Step 2: Set Up the L3 switch
+
+A virtual bridge `bro0` is created to connect the two namespaces, allowing them to communicate with each other over the 192.168.10.0/24 subnet.
+
+### Step 3: NAT Configuration
+
+The `red` namespace acts as a NAT router. `iptables` is used to perform NAT, allowing the `green` namespace to access the simulated internet through the `red` namespace.
+
+### Step 4: Enable IP Forwarding
+
+IP forwarding is enabled on the host machine to allow packets to be routed between the namespaces and external network.
+
+### Step 5: Port Forwarding
+
+A simple web server is hosted in the `red` namespace, and `iptables` is configured to forward external traffic from the "simulated internet" to this internal web server.
+
+### Step 6: Traffic Restriction
+
+Outbound traffic from the `red` namespace is restricted to allow only HTTP (port 80) and HTTPS (port 443) using `iptables`. All other traffic is blocked.
+
+---
+
 ## Setup
 
 ### Prerequisites:
